@@ -1,0 +1,16 @@
+# Pull Request
+
+## Title
+Implement Goal Icon Picker
+
+## Summary
+This pull request adds support for goal icons in the CommBank Goal Tracker application.
+
+### Changes made
+- Added support for storing an icon in the Goal model.
+- Implemented the PUT request to update goals through the API.
+- Completed the emoji selection handler (`pickEmojiOnClick`) so selected emojis are saved.
+- Updated the Goal Manager to allow selecting and updating goal icons.
+- Updated Goal Cards to display the selected icon.
+- Verified that icon changes persist after refreshing the application.
+- Created a feature branch (`feature/goal-icons`) for development.
